@@ -98,7 +98,7 @@ export async function POST(req: Request) {
                   <tr>
                     <td style="padding:34px 40px 10px 40px;" align="center">
                       <div style="background:#ffffff;padding:8px;border-radius:4px;display:inline-block;">
-                        <img src="https://app.powerbook.at/images/logos/logo-black.svg" alt="Powerbook" width="160" style="display:block;" />
+                        <img src="https://app.powerbook.at/images/logos/logo-new-black.png" alt="Powerbook" width="160" style="display:block;" />
                       </div>
                     </td>
                   </tr>

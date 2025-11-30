@@ -28,7 +28,7 @@ export default function Sidebar({ email }: { email?: string | null }) {
       {/* Logo */}
       <div className="flex items-center gap-3 h-16 border-b">
         <Image
-          src="/images/logos/logo-black.svg"
+          src="/images/logos/logo-new-black.png"
           alt="Powerbook"
           width={140}
           height={45}

@@ -206,7 +206,7 @@ export default function AppShellClient({
                   className="flex items-center"
                 >
                   <Image
-                    src="/images/logos/logo-white.svg"
+                    src="/images/logos/logo-new-white.png"
                     alt="Powerbook"
                     width={120}
                     height={36}
@@ -328,7 +328,7 @@ export default function AppShellClient({
           <div className="flex h-12 shrink-0 items-center">
             <Link href="/" className="flex items-center">
               <Image
-                src="/images/logos/logo-white.svg"
+                src="/images/logos/logo-new-white.png"
                 alt="Powerbook"
                 width={120}
                 height={36}
