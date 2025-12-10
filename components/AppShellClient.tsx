@@ -116,7 +116,7 @@ export default function AppShellClient({
   if (role === "admin") {
     NAV = [
       { name: "Dashboard", href: "/", icon: HomeIcon },
-      { name: "Powerbooks", href: "/notebooks", icon: BookOpenIcon },
+      { name: "Powrbooks", href: "/notebooks", icon: BookOpenIcon },
       { name: "Aufgaben", href: "/todos", icon: CheckIcon },
       { name: "Kalendar", href: "/calendar", icon: CalendarIcon },
       { name: "Kontakte", href: "/contacts", icon: UsersIcon },
@@ -132,7 +132,7 @@ export default function AppShellClient({
   } else {
     NAV = [
       { name: "Dashboard", href: "/", icon: HomeIcon },
-      { name: "Powerbooks", href: "/notebooks", icon: BookOpenIcon },
+      { name: "Powrbooks", href: "/notebooks", icon: BookOpenIcon },
       { name: "Aufgaben", href: "/todos", icon: CheckIcon },
       { name: "Kalendar", href: "/calendar", icon: CalendarIcon },
       { name: "Kontakte", href: "/contacts", icon: UsersIcon },
@@ -207,7 +207,7 @@ export default function AppShellClient({
                 >
                   <Image
                     src="/images/logos/logo-new-white.png"
-                    alt="Powerbook"
+                    alt="Powrbook"
                     width={120}
                     height={36}
                     priority
@@ -329,7 +329,7 @@ export default function AppShellClient({
             <Link href="/" className="flex items-center">
               <Image
                 src="/images/logos/logo-new-white.png"
-                alt="Powerbook"
+                alt="Powrbook"
                 width={120}
                 height={36}
                 priority
@@ -441,7 +441,7 @@ export default function AppShellClient({
           <span className="sr-only">Open sidebar</span>
           <Bars3Icon className="size-6" />
         </button>
-        <div className="flex-1 text-sm font-semibold">Powerbook</div>
+        <div className="flex-1 text-sm font-semibold">Powrbook</div>
       </div> */}
 
       {/* Main */}
@@ -465,7 +465,7 @@ export default function AppShellClient({
               className="inline-flex items-center justify-center size-10 rounded-full hover:bg-white/10 active:scale-95 transition"
             >
               <BookOpen className="size-6" />
-              <span className="sr-only">Powerbooks</span>
+              <span className="sr-only">Powrbooks</span>
             </Link>
             <Link
               href={`/profile?link=${encodeURIComponent(linkParam)}`}

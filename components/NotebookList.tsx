@@ -23,7 +23,7 @@ export default function NotebookList({
   // Tabs
   const [tab, setTab] = useState<"books" | "projects">("books");
 
-  // ---------- Powerbooks (unverändert) ----------
+  // ---------- Powrbooks (unverändert) ----------
   const [creating, setCreating] = useState(false);
 
   async function createNotebook(title: string) {
@@ -246,7 +246,7 @@ export default function NotebookList({
   );
 }
 
-/* ---------------- Empty-State Promo für Powerbooks ---------------- */
+/* ---------------- Empty-State Promo für Powrbooks ---------------- */
 
 function EmptyPowerbookPromo() {
   const checkoutUrl =
@@ -259,17 +259,17 @@ function EmptyPowerbookPromo() {
         <div className="mx-auto w-full max-w-sm overflow-hidden rounded-xl border bg-gray-50">
           <img
             src="/images/promo-2.png"
-            alt="Powerbook"
+            alt="Powrbook"
             className="h-full w-full object-cover"
           />
         </div>
 
         {/* Text + CTA */}
         <div className="flex-1">
-          <h3 className="text-lg font-semibold">Hol dir dein Powerbook</h3>
+          <h3 className="text-lg font-semibold">Hol dir dein Powrbook</h3>
           <p className="mt-2 text-sm text-gray-600">
             Scanne Seiten blitzschnell, verknüpfe Notizen mit Projekten und
-            arbeite digital weiter. Mit dem Powerbook schaltest du die komplette
+            arbeite digital weiter. Mit dem Powrbook schaltest du die komplette
             Experience frei – inklusive digitaler Ansicht, automatischer
             Seitenerkennung und Export.
           </p>
@@ -294,7 +294,7 @@ function EmptyPowerbookPromo() {
               href={checkoutUrl}
               className="inline-flex items-center rounded-xl bg-black px-4 py-2 text-sm font-medium text-white hover:bg-black/90"
             >
-              Powerbook jetzt holen
+              Powrbook jetzt holen
             </a>
             <a
               href="/demo"

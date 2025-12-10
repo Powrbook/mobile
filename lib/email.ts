@@ -39,7 +39,7 @@ async function getTransporter(): Promise<Transporter | null> {
 }
 
 export async function sendMail(input: MailInput) {
-  const from = input.from || process.env.MAIL_FROM || "Powerbook <noreply@powerbook.at>";
+  const from = input.from || process.env.MAIL_FROM || "Powrbook <noreply@powrbook.com>";
 
   const transporter = await getTransporter();
   if (!transporter) {

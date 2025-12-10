@@ -143,7 +143,7 @@ export default function DashboardClient({
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <MetricCard
             icon={BookOpenIcon}
-            title="Powerbooks"
+            title="Powrbooks"
             value={String(notebookCount)}
             link="/notebooks"
           />
@@ -173,7 +173,7 @@ export default function DashboardClient({
           <Card className="lg:col-span-2 mx-auto w-full max-w-[380px] sm:max-w-[560px] lg:max-w-none">
             <CardHeader className="flex items-start justify-between pb-3">
               <div>
-                <CardTitle>Deine Powerbooks</CardTitle>
+                <CardTitle>Deine Powrbooks</CardTitle>
                 <CardDescription>
                   Kurzer Überblick & schnelle Aktionen
                 </CardDescription>
@@ -187,7 +187,7 @@ export default function DashboardClient({
             <CardContent>
               {notebooks.length === 0 ? (
                 <div className="rounded-xl border p-6 text-sm text-muted-foreground">
-                  Noch keine Powerbooks. Bestelle jetzt dein Powerbook!
+                  Noch keine Powrbooks. Bestelle jetzt dein Powrbook!
                 </div>
               ) : (
                 <div className="grid gap-4 sm:grid-cols-2">
@@ -211,12 +211,12 @@ export default function DashboardClient({
                         {/* <Tooltip>
                           <TooltipTrigger asChild>
                             <Button size="icon" variant="ghost" className="h-8 w-8" asChild>
-                              <Link href={`/notebooks/${nb.id}/settings`} aria-label="Powerbook-Einstellungen">
+                              <Link href={`/notebooks/${nb.id}/settings`} aria-label="Powrbook-Einstellungen">
                                 <Settings className="h-4 w-4" />
                               </Link>
                             </Button>
                           </TooltipTrigger>
-                          <TooltipContent>Powerbook-Einstellungen</TooltipContent>
+                          <TooltipContent>Powrbook-Einstellungen</TooltipContent>
                         </Tooltip> */}
                       </div>
 

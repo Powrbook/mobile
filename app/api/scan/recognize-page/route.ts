@@ -106,8 +106,8 @@ export async function POST(req: Request) {
       baseURL: "https://openrouter.ai/api/v1",
       httpAgent: keepAliveAgent,
       defaultHeaders: {
-        "HTTP-Referer": "https://app.powerbook.at",
-        "X-Title": "Powerbook Page Detect",
+        "HTTP-Referer": "https://app.powrbook.com",
+        "X-Title": "Powrbook Page Detect",
       },
     } as any);
 

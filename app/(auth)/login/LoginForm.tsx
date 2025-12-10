@@ -43,7 +43,7 @@ export default function LoginForm() {
       <div className="flex items-center justify-center px-6 py-12 lg:px-20">
         <div className="w-full max-w-sm">
           <Image
-            alt="Powerbook"
+            alt="Powrbook"
             src="/images/logos/logo-new-black.png"
             width={160}
             height={80}
@@ -51,7 +51,7 @@ export default function LoginForm() {
             className="h-20 w-auto"
           />
           <h1 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-            Bei Powerbook anmelden
+            Bei Powrbook anmelden
           </h1>
           <p className="mt-2 text-sm text-gray-600">
             Neu hier?{" "}

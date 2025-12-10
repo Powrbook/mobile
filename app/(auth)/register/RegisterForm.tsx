@@ -45,7 +45,7 @@ export default function RegisterForm() {
       <div className="flex items-center justify-center px-6 py-12 lg:px-20">
         <div className="w-full max-w-sm">
           <Image
-            alt="Powerbook"
+            alt="Powrbook"
             src="/images/logos/logo-new-black.png"
             width={120}
             height={36}

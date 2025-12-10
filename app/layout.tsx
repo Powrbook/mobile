@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Powerbook | App",
-  description: "Willkommen in der App von Powerbook!",
+  title: "Powrbook | App",
+  description: "Willkommen in der App von Powrbook!",
   icons: {
     icon: [{ url: "/favicon.ico" }, { url: "/icon.png", type: "image/png" }],
     apple: [{ url: "/apple-icon.png" }],

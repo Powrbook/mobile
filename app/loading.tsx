@@ -6,7 +6,7 @@ export default function Loading() {
     <AppShell>
       <div className="max-w-screen overflow-x-hidden h-[80vh] flex flex-col items-center justify-center">
         <Loader2 className="h-6 w-6 animate-spin text-gray-600" />
-        <p className="text-sm text-gray-500 mt-4">Powerbook lädt...</p>
+        <p className="text-sm text-gray-500 mt-4">Powrbook lädt...</p>
       </div>
     </AppShell>
   );

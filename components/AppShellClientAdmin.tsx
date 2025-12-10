@@ -21,7 +21,7 @@ type NavItem = { name: string; href: AdminView; icon: IconCmp };
 const NAV: NavItem[] = [
   { name: "QR Code PB Zuweisung", href: "qr", icon: QrCodeIcon },
   { name: "Benutzer Verwaltung", href: "users", icon: UserGroupIcon },
-  { name: "Powerbooks / Scans", href: "books", icon: BookOpenIcon },
+  { name: "Powrbooks / Scans", href: "books", icon: BookOpenIcon },
   { name: "Prompt Einstellungen", href: "prompt", icon: SparklesIcon },
 ];
 

@@ -92,7 +92,7 @@ function NexoroCard() {
         title="Nexoro CRM"
         description="Integriere deine Notebooks vollautomatisch zu Nexoro CRM"
         logoUrl="/images/logos/nexoro.svg"
-        logoAlt="Powerbook Logo"
+        logoAlt="Powrbook Logo"
       />
       <form onSubmit={onSave} className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <Field label="Nexoro - Benutzername">
@@ -131,7 +131,7 @@ function NexoroCard() {
           </Button>
           <MutedHint>
             Mit dem Speichern Ihrer Daten stimmen Sie dem Datenaustausch zwischen
-            Powerbook und Nexoro automatisch zu.
+            Powrbook und Nexoro automatisch zu.
           </MutedHint>
         </div>
       </form>
@@ -175,7 +175,7 @@ function DarleanCard() {
             Änderungen speichern
           </Button>
           <MutedHint>
-            Mit dem Speichern Ihrer Daten stimmen Sie dem Datenaustausch zwischen Powerbook und Darlean automatisch zu.
+            Mit dem Speichern Ihrer Daten stimmen Sie dem Datenaustausch zwischen Powrbook und Darlean automatisch zu.
           </MutedHint>
         </div>
       </form>
@@ -257,7 +257,7 @@ function GoogleCard() {
           )}
 
           <MutedHint>
-            Mit dem Verbinden Ihres Google Kontos stimmen Sie dem Datenaustausch zwischen Powerbook und Google automatisch zu.
+            Mit dem Verbinden Ihres Google Kontos stimmen Sie dem Datenaustausch zwischen Powrbook und Google automatisch zu.
           </MutedHint>
         </div>
       </form>

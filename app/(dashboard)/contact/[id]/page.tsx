@@ -183,7 +183,7 @@ export default function ContactPage() {
       </button>
 
       <p className="text-xs text-gray-400 mt-4">
-        © {new Date().getFullYear()} Powerbook
+        © {new Date().getFullYear()} Powrbook
       </p>
     </div>
   );

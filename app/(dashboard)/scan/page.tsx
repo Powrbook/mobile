@@ -40,8 +40,8 @@ export default async function NotebooksPage() {
   return (
     <>
       <div className="flex flex-col items-start justify-between">
-        <h1 className="text-2xl font-semibold">Powerbooks</h1>
-        <p className="text-gray-500 text-sm mt-2">Wähle dein Powerbook aus um mit dem Scannen zu beginnen.</p>
+        <h1 className="text-2xl font-semibold">Powrbooks</h1>
+        <p className="text-gray-500 text-sm mt-2">Wähle dein Powrbook aus um mit dem Scannen zu beginnen.</p>
       </div>
       <div className="mt-6">
         <ClientScan items={items} />

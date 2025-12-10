@@ -103,7 +103,7 @@ export default async function QRPage({
 
           <div className="mt-6 text-sm text-gray-600">
             Tipp: Drucke den PNG-QR auf die physische Seite oder klebe ihn ein. Beim Scannen
-            landet man direkt auf der passenden Seite in Powerbook.
+            landet man direkt auf der passenden Seite in Powrbook.
           </div>
         </div>
       </div>

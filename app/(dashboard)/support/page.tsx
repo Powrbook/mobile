@@ -143,7 +143,7 @@ export default function SupportKontakt() {
         <h1 className="text-2xl font-semibold">Kontakt & Hilfe</h1>
         <p className="mt-2 text-gray-600">
           So erreichst du uns – wähle E-Mail, Chat oder Telefon. Wir melden uns
-          werktags schnell und helfen dir bei allen Fragen rund um Powerbook.
+          werktags schnell und helfen dir bei allen Fragen rund um Powrbook.
         </p>
 
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -160,7 +160,7 @@ export default function SupportKontakt() {
               <Button
                 className="w-full h-10 justify-between"
                 onClick={() =>
-                  (window.location.href = "mailto:support@powerbook.at")
+                  (window.location.href = "mailto:support@powrbook.com")
                 }
               >
                 E-Mail schreiben

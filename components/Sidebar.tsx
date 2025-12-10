@@ -29,7 +29,7 @@ export default function Sidebar({ email }: { email?: string | null }) {
       <div className="flex items-center gap-3 h-16 border-b">
         <Image
           src="/images/logos/logo-new-black.png"
-          alt="Powerbook"
+          alt="Powrbook"
           width={140}
           height={45}
           priority

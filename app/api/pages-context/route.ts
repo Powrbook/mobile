@@ -109,15 +109,15 @@ export async function POST(req: Request) {
       const userId = nb ? nb.ownerId : undefined;
 
       if (userId) {
-        /** TODOs -> TaskList "Powerbooks" */
+        /** TODOs -> TaskList "Powrbooks" */
         if (todosArr.length > 0) {
           let listDoc: any = await TaskList.findOne({
             userId,
-            name: "Powerbooks",
+            name: "Powrbooks",
           }).lean();
           if (!listDoc) {
             const created = await TaskList.create({
-              name: "Powerbooks",
+              name: "Powrbooks",
               userId,
               createdAt: new Date(),
               updatedAt: new Date(),
@@ -144,16 +144,16 @@ export async function POST(req: Request) {
           createdTasks = res.map((r: any) => String(r._id));
         }
 
-        /** CAL -> Calendar "Powerbooks" + CalendarEvent docs */
+        /** CAL -> Calendar "Powrbooks" + CalendarEvent docs */
         if (calsArr.length > 0) {
           let calendarDoc: any = await CalendarModel.findOne({
             userId,
-            name: "Powerbooks",
+            name: "Powrbooks",
           }).lean();
 
           if (!calendarDoc) {
             const created = await CalendarModel.create({
-              name: "Powerbooks",
+              name: "Powrbooks",
               color: "#000000",
               userId,
               isDefault: true,

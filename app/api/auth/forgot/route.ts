@@ -53,7 +53,7 @@ export async function POST(req: Request) {
                     <td style="padding:34px 40px 24px 40px;" align="center">
                       <!-- logo on white -->
                       <div style="background:#ffffff;padding:8px;border-radius:4px;display:inline-block;">
-                        <img src="https://app.powerbook.at/images/logos/logo-new-black.png" alt="Powerbook" width="160" style="display:block;" />
+                        <img src="https://app.powrbook.com/images/logos/logo-new-black.png" alt="Powrbook" width="160" style="display:block;" />
                       </div>
                     </td>
                   </tr>
@@ -67,7 +67,7 @@ export async function POST(req: Request) {
                   <tr>
                     <td style="padding:0 40px 22px 40px;text-align:center;">
                       <p style="margin:0;font-size:15px;color:#333;line-height:22px;">
-                        Du hast das Zurücksetzen deines Powerbook-Passworts angefordert. Klicke auf den Button, um ein neues Passwort zu setzen.
+                        Du hast das Zurücksetzen deines Powrbook-Passworts angefordert. Klicke auf den Button, um ein neues Passwort zu setzen.
                       </p>
                     </td>
                   </tr>
@@ -93,11 +93,11 @@ export async function POST(req: Request) {
                       <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
                           <td style="padding:16px 0;font-size:12px;color:#666;text-align:center;">
-                            <div>Powerbook · <a href="mailto:noreply@powerbook.at" style="color:#666;text-decoration:underline;">noreply@powerbook.at</a></div>
+                            <div>Powrbook · <a href="mailto:noreply@powrbook.com" style="color:#666;text-decoration:underline;">noreply@powrbook.com</a></div>
                             <div style="margin-top:8px;">
-                              <a href="https://powerbook.at/impressum" style="color:#666;text-decoration:underline;margin:0 8px;">Impressum</a> |
-                              <a href="https://powerbook.at/datenschutz" style="color:#666;text-decoration:underline;margin:0 8px;">Datenschutz</a> |
-                              <a href="https://powerbook.at/agb" style="color:#666;text-decoration:underline;margin:0 8px;">AGB</a>
+                              <a href="https://powrbook.com/impressum" style="color:#666;text-decoration:underline;margin:0 8px;">Impressum</a> |
+                              <a href="https://powrbook.com/datenschutz" style="color:#666;text-decoration:underline;margin:0 8px;">Datenschutz</a> |
+                              <a href="https://powrbook.com/agb" style="color:#666;text-decoration:underline;margin:0 8px;">AGB</a>
                             </div>
                           </td>
                         </tr>
@@ -116,7 +116,7 @@ export async function POST(req: Request) {
 
     await sendMail({
       to: email,
-      subject: "Powerbook: Passwort zurücksetzen",
+      subject: "Powrbook: Passwort zurücksetzen",
       html,
     });
 

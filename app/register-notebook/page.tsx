@@ -68,7 +68,7 @@ export default function RegisterNotebookPage() {
       <div className="flex items-center justify-center px-6 py-12 lg:px-20">
         <div className="w-full max-w-sm flex flex-col justify-center items-center lg:items-start">
           <Image
-            alt="Powerbook"
+            alt="Powrbook"
             src="/images/logos/logo-new-black.png"
             width={160}
             height={80}
@@ -76,10 +76,10 @@ export default function RegisterNotebookPage() {
             className="h-20 w-auto"
           />
           <h1 className="mt-8 text-2xl text-center lg:text-left font-bold tracking-tight text-gray-900">
-            Powerbook verbinden
+            Powrbook verbinden
           </h1>
           <p className="mt-2 text-sm text-gray-600 text-center lg:text-left">
-            Dieses Powerbook wird deinem Account zugeordnet.
+            Dieses Powrbook wird deinem Account zugeordnet.
           </p>
 
           {/* ⇩ kontrolliertes Textfeld – wird beim Claim mitgesendet */}
@@ -87,7 +87,7 @@ export default function RegisterNotebookPage() {
             name="title"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            placeholder="Benenne dein Powerbook"
+            placeholder="Benenne dein Powrbook"
             className="border rounded px-3 py-2 w-full mt-4"
           />
 

@@ -42,7 +42,7 @@ export async function POST(req: Request) {
         title,
         body,
         data: {
-          from: "powerbook-admin",
+          from: "powrbook-admin",
           userId: String(userId),
           sentAt: new Date().toISOString(),
         },

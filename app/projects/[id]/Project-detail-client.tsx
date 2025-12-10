@@ -229,8 +229,8 @@ export default function ProjectDetailClient({ projectId }: { projectId: string }
         <section className="md:col-span-2 rounded-2xl border bg-white p-5 shadow-sm">
           <div className="mb-4 flex items-center justify-between">
             <div>
-              <h2 className="text-base font-semibold">Zugeordnete Powerbooks</h2>
-              <p className="text-sm text-gray-500">Welche Powerbooks gehören zu diesem Projekt?</p>
+              <h2 className="text-base font-semibold">Zugeordnete Powrbooks</h2>
+              <p className="text-sm text-gray-500">Welche Powrbooks gehören zu diesem Projekt?</p>
             </div>
             <button className="inline-flex items-center gap-2 rounded-xl border px-3 py-1.5 text-sm hover:bg-gray-50">
               <Plus className="h-4 w-4" />
@@ -240,7 +240,7 @@ export default function ProjectDetailClient({ projectId }: { projectId: string }
 
           <ul className="divide-y rounded-xl border">
             {demoBooks.length === 0 && (
-              <li className="p-6 text-sm text-gray-500">Noch keine Powerbooks zugewiesen.</li>
+              <li className="p-6 text-sm text-gray-500">Noch keine Powrbooks zugewiesen.</li>
             )}
 
             {demoBooks.map((b) => (
@@ -278,7 +278,7 @@ export default function ProjectDetailClient({ projectId }: { projectId: string }
             <div>
               <h2 className="text-base font-semibold">Allgemeine Scans</h2>
               <p className="text-sm text-gray-500">
-                Dateien/Uploads, die keinem Powerbook zugeordnet sind.
+                Dateien/Uploads, die keinem Powrbook zugeordnet sind.
               </p>
             </div>
             <button className="inline-flex items-center gap-2 rounded-xl border px-3 py-1.5 text-sm hover:bg-gray-50">

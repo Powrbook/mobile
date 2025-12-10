@@ -53,8 +53,8 @@ export async function POST(req: Request) {
           baseURL: "https://openrouter.ai/api/v1",
           // optional empfohlen:
           defaultHeaders: {
-            "HTTP-Referer": "https://app.powerbook.at",
-            "X-Title": "Powerbook Scan OCR",
+            "HTTP-Referer": "https://app.powrbook.com",
+            "X-Title": "Powrbook Scan OCR",
           },
         } as any);
 

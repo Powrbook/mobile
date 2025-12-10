@@ -98,21 +98,21 @@ export async function POST(req: Request) {
                   <tr>
                     <td style="padding:34px 40px 10px 40px;" align="center">
                       <div style="background:#ffffff;padding:8px;border-radius:4px;display:inline-block;">
-                        <img src="https://app.powerbook.at/images/logos/logo-new-black.png" alt="Powerbook" width="160" style="display:block;" />
+                        <img src="https://app.powrbook.com/images/logos/logo-new-black.png" alt="Powrbook" width="160" style="display:block;" />
                       </div>
                     </td>
                   </tr>
 
                   <tr>
                     <td style="padding:0 40px 6px 40px;text-align:center;">
-                      <h1 style="margin:0;font-size:28px;line-height:34px;font-weight:600;color:#000;">Willkommen bei Powerbook</h1>
+                      <h1 style="margin:0;font-size:28px;line-height:34px;font-weight:600;color:#000;">Willkommen bei Powrbook</h1>
                     </td>
                   </tr>
 
                   <tr>
                     <td style="padding:0 40px 22px 40px;text-align:center;">
                       <p style="margin:0;font-size:15px;color:#333;line-height:22px;">
-                        Hallo ${firstName || ""}, schön, dass du bei Powerbook dabei bist. Du kannst dich über den Button einloggen und sofort starten.
+                        Hallo ${firstName || ""}, schön, dass du bei Powrbook dabei bist. Du kannst dich über den Button einloggen und sofort starten.
                       </p>
                     </td>
                   </tr>
@@ -128,7 +128,7 @@ export async function POST(req: Request) {
                   <tr>
                     <td style="padding:0 40px 22px 40px;text-align:center;">
                       <p style="margin:0;font-size:13px;color:#666;line-height:20px;">
-                        Wenn du Hilfe brauchst, kontaktiere unseren Support über support@powerbook.at
+                        Wenn du Hilfe brauchst, kontaktiere unseren Support über support@powrbook.com
                       </p>
                     </td>
                   </tr>
@@ -138,11 +138,11 @@ export async function POST(req: Request) {
                       <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
                           <td style="padding:16px 0;font-size:12px;color:#666;text-align:center;">
-                            <div>Powerbook · <a href="mailto:noreply@powerbook.at" style="color:#666;text-decoration:underline;">noreply@powerbook.at</a></div>
+                            <div>Powrbook · <a href="mailto:noreply@powrbook.com" style="color:#666;text-decoration:underline;">noreply@powrbook.com</a></div>
                             <div style="margin-top:8px;">
-                              <a href="https://powerbook.at/impressum" style="color:#666;text-decoration:underline;margin:0 8px;">Impressum</a> |
-                              <a href="https://powerbook.at/datenschutz" style="color:#666;text-decoration:underline;margin:0 8px;">Datenschutz</a> |
-                              <a href="https://powerbook.at/agb" style="color:#666;text-decoration:underline;margin:0 8px;">AGB</a>
+                              <a href="https://powrbook.com/impressum" style="color:#666;text-decoration:underline;margin:0 8px;">Impressum</a> |
+                              <a href="https://powrbook.com/datenschutz" style="color:#666;text-decoration:underline;margin:0 8px;">Datenschutz</a> |
+                              <a href="https://powrbook.com/agb" style="color:#666;text-decoration:underline;margin:0 8px;">AGB</a>
                             </div>
                           </td>
                         </tr>
@@ -161,7 +161,7 @@ export async function POST(req: Request) {
     // Senden (nicht blockierend für Fehler im Ablauf — catch falls Fehler)
     await sendMail({
       to: email,
-      subject: "Willkommen bei Powerbook",
+      subject: "Willkommen bei Powrbook",
       html: welcomeHtml,
     });
   } catch (e) {
